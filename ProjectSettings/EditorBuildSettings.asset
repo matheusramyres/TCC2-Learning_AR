@@ -13,10 +13,7 @@ EditorBuildSettings:
     guid: 50dcf2b8e47c8144f8d2b7fd437cd87a
   - enabled: 1
     path: Assets/Scenes/03-Cores.unity
-    guid: 28806a4749fad53428f39a288a61b940
-  - enabled: 1
-    path: Assets/Scenes/04-Animais.unity
-    guid: 45c480e48d76d814593da75e87079eff
+    guid: 6dfe4b986576023478b77b7066875b36
   - enabled: 1
     path: Assets/Scenes/AnimalsScenes/aStage-1.unity
     guid: a11d46d05db0e8f479ee100f6b868560
