@@ -13,7 +13,7 @@ public class ActiveAudio : MonoBehaviour
     {
         //Fetch the AudioSource from the GameObject
         m_MyAudioSource = GetComponent<AudioSource>();
-        m_MyAudioSource.Stop();
+        m_MyAudioSource.Play();
         //Ensure the toggle is set to true for the music to play at start-up
         click = false;
     }

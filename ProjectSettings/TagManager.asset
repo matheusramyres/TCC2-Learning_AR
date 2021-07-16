@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - cor1
+  - cor2
   layers:
   - Default
   - TransparentFX

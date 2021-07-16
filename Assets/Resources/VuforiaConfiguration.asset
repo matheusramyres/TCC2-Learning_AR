@@ -17,8 +17,8 @@ MonoBehaviour:
     ufoLicenseKey: QVFRNDQ5bi8vLy8vQUFBQUtCTGlCUG9PcVVBV2hpU0VteER3RGM0VU1IRjZXc25laDRNYTJqc29tUDJVYUwvUnhjY1VsQk13VzRXQ3pYQm9vc0dzcCtqcm9QRUJRc0ZxK3pxQll6ckhtY2dUdTRKRDhlb2ZkTitwTjRZYWphQ21QbnZpK25rd3dhUnp6Z2k3UlRBRENDbUVKc3BkdHA3NnE5NHAwMEFMZmJNcDY1YVV3bWtKcDVxU056cys0TExrTCtyWWdaZmhjL0FKWGIwQjNsb2dzdGFwM1hVdzlKUUlmMy9qRmNqWTE5WHh2d0NkZ1RRSG02MVIxWitoTDJtMXBXWjBUdjFnTDdPczBFVm44STM2ZWxLMnVpVERCSjhScHpXSUpZZlBEVXBHZXJOTERtQ3ZFSkhGdHF0SlFLSTYrSW1CVzFKYm1KRnBCTG1VUU4vZkVvV0FrL09JeGN4RDNFanliOVhFTnRvL1EvSHBjZGM2Y3dJUzEvdFE=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
-    maxSimultaneousObjectTargets: 1
+    maxSimultaneousImageTargets: 2
+    maxSimultaneousObjectTargets: 2
     virtualSceneScaleFactor: 1
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
@@ -37,7 +37,7 @@ MonoBehaviour:
     autoImportArcore: 1
   playmode:
     mSequencePath: 
-    playModeType: 1
+    playModeType: 0
   webcam:
     renderTextureLayer: 30
   packageInformation:
