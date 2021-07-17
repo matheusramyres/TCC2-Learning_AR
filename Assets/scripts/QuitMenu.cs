@@ -7,17 +7,12 @@ using UnityEngine.SceneManagement;
 
 public class QuitMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if(Input.GetKeyDown (KeyCode.Escape)){
+            Screen.orientation = ScreenOrientation.Portrait;
             SceneManager.LoadScene("01-Menu",LoadSceneMode.Single);
+            
         }
     }
 }

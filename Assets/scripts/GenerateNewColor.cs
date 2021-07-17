@@ -9,11 +9,14 @@ public class GenerateNewColor : MonoBehaviour
     public GameObject newColor;
     public GameObject completed_button;
     public GameObject result_audio;
+     public GameObject stage_description;
     void OnTriggerEnter(Collider marker)
     {
         if(marker.gameObject.tag == "cor2"){
             color1.SetActive(false);
             color2.SetActive(false);
+            stage_description.GetComponent<AudioSource>().Stop();
+
             if(completed_button != null){
                 completed_button.SetActive(true);
             }
@@ -37,9 +40,6 @@ public class GenerateNewColor : MonoBehaviour
     public void LostMarker(){
         color1.SetActive(true);
         color2.SetActive(true);
-        if(completed_button != null){
-            completed_button.SetActive(true);
-        }
         newColor.SetActive(false);
         result_audio.GetComponent<AudioSource>().Stop();
     }
